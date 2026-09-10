@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Databases / runtime
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/
+.next/
+node_modules/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Local AI tools
+.claude/
+.cursor/
+.codex/
+
