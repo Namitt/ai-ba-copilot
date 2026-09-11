@@ -19,6 +19,9 @@ Use a stable prefix and sequential number of at least three digits for each reco
 | ASM-001 | Assumption |
 | RSK-001 | Risk |
 | DEC-001 | Decision |
+| SCN-001 | Synthetic Scenario |
+| LC-001 | Opportunity Lifecycle Stage |
+| BACT-001 | BA Operating Activity |
 | KPI-001 | KPI |
 | PIL-001 | Pilot |
 | UAT-001 | UAT Scenario |
