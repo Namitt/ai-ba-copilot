@@ -3,91 +3,86 @@
 Status: DRAFT
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case
+Phase: 1 — Formal Discovery & Business Case (owner-review amended)
 
-> DRAFT business case built from Phase 1 secondary research. Evidence references point to research/sources/PHASE1_SOURCES.md ([EV-###]). No ROI figures are fabricated; where a defensible number does not yet exist, the required baseline is stated instead.
+> DRAFT built from Phase 1 secondary research. Evidence references point to research/sources/PHASE1_SOURCES.md ([EV-###]). No ROI figures are fabricated. Effectiveness of the proposed approach is treated as a hypothesis, not a proven fact.
 
 ## Executive Summary
 
-Organisations are adopting AI quickly but converting little of it into measured business value. Independent evidence reports that a large share of generative-AI initiatives are abandoned after proof of concept or never reach P&L impact, with causes concentrated in unclear value, weak evidence, data/integration gaps, poor governance and low adoption [EV-001][EV-002][EV-003]. AI BA Copilot proposes a BA-led operating workflow that takes a single business pain point through structured discovery, evidence, options appraisal, responsible-AI governance capture, requirements, pilot and expected-vs-actual measurement, with AI assisting and a human BA deciding. This document is a DRAFT to support a decision on whether to proceed to deeper discovery; it does not yet justify build investment.
+AI adoption is widespread while enterprise value realisation remains difficult: ~90% of organisations report regular AI use, but only ~44% are scaling and ~37% report a positive EBIT contribution [EV-011]; MIT NANDA (preliminary) reports ~95% of organisations see no measurable P&L return [EV-002]. Reported contributors include unclear value, integration/data, governance, adoption, measurement and operating-model issues [EV-002][EV-011][EV-012]. AI BA Copilot proposes a BA-led operating workflow (AI assists, human BA decides). **A BA-led discipline could address several identified control gaps, but its effectiveness remains a hypothesis requiring validation.** This DRAFT supports a decision on whether to proceed to deeper discovery; it does not justify build investment.
 
 ## Background
 
-The project is an independent portfolio / mini-industry project. It uses synthetic scenarios only and does not represent any real organisation's internal systems or data. The demonstration context is an AI & Innovation function receiving competing business requests such as "Can AI solve this?"
+Independent portfolio / mini-industry project; synthetic scenarios only; does not represent any real organisation. Demonstration context: an AI & Innovation function receiving competing business requests.
 
 ## Problem / Opportunity
 
-AI/innovation functions receive unstructured demand (meetings, messages, ideas, complaints). Without a disciplined BA workflow, demand is qualified inconsistently, evidence is thin, prioritisation is unclear, solutions are chosen prematurely and value is poorly measured. The opportunity is a repeatable, evidenced, governed way to turn pain points into prioritised, measurable AI (or non-AI) opportunities.
+The evidenced problem is the adoption-vs-value gap. Whether inconsistent BA-style discovery is a material driver is a hypothesis (see docs/PROBLEM_STATEMENT.md). The opportunity, if the hypothesis holds, is a repeatable, evidenced, governed way to turn requests into prioritised, measurable AI (or non-AI) opportunities.
 
 ## Evidence
 
-- Gartner predicts ≥30% of GenAI projects abandoned after PoC by end 2025; causes include unclear business value and poor data quality [EV-001].
-- MIT NANDA reports ~95% of enterprise GenAI pilots deliver no measurable P&L impact, driven by integration/adoption gaps rather than model quality [EV-002].
-- McKinsey reports high adoption (65% gen AI in ≥1 function) but early value capture and immature governance (~18% with enterprise-wide responsible-AI governance) [EV-003].
-- IIBA supports an "AI assists, BA decides" model [EV-007].
-- Prioritisation frameworks and portfolio/innovation tools are mature and commoditised [EV-008][EV-009][EV-010].
+- Gartner forecast: ≥30% GenAI projects abandoned after PoC by end-2025 [EV-001].
+- MIT NANDA (preliminary): ~95% of organisations no measurable P&L return; ~5% capture significant value [EV-002].
+- McKinsey Aug 2026: ~90% regular use; 44% scaling; 37% EBIT contribution; ~1 in 5 constrained by operating cost [EV-011].
+- McKinsey Apr 2026: ~80% deploy gen AI, ~60% no enterprise-wide EBIT impact; five-layer measurement framework [EV-012].
+- IIBA: AI assists, BA decides [EV-007].
+- UK governance: ICO/UK GDPR + DUAA 2025 [EV-004][EV-005][EV-013]; DSIT principles [EV-006]; UK Gov AI Playbook practice guidance [EV-014].
+- Comparable solutions: [EV-008][EV-009][EV-015][EV-016][EV-017] — see COMPARABLE_SOLUTIONS.md.
 
 ## Current-State Challenges
 
-Inconsistent intake; weak problem framing; missing evidence; premature solutioning; unclear prioritisation; little baseline or outcome measurement; governance considered late; no end-to-end traceability. (See docs/processes/AS_IS_PROCESS.md — hypothesised.)
+See docs/processes/AS_IS_PROCESS.md — a hypothesised model, not observed fact.
 
 ## Stakeholders Affected
 
-Business stakeholder, Business Analyst, Head of AI/Innovation, Technical/Engineering, Finance, Data/Privacy/Governance, Delivery/Product, End users. (See docs/STAKEHOLDER_ANALYSIS.md.)
+See docs/STAKEHOLDER_ANALYSIS.md.
 
 ## Strategic Rationale
 
-A BA-led discipline addresses the evidenced failure causes at their source (framing, evidence, governance, measurement) and keeps human accountability explicit — consistent with UK responsible-AI expectations [EV-004][EV-005][EV-006].
+If the hypothesis holds, a BA-led discipline could add connective structure across framing, evidence, options, governance and measurement, keeping human accountability explicit — consistent with UK responsible-AI expectations [EV-004][EV-005][EV-006][EV-013][EV-014]. This rationale is contingent on validation, not proven.
 
 ## Options (high level)
 
-1. Do nothing — continue ad-hoc intake.
-2. Adopt an existing tool (innovation-management, PPM or analyst prioritiser) [EV-008][EV-009].
-3. Adopt a lightweight BA operating discipline/workflow (this concept).
-4. Combination — BA discipline layered over an existing tool.
-Option evaluation is DRAFT; no option is selected in Phase 1.
+1. Do nothing. 2. Adopt an existing tool (IT-transformation assessment, SPM/PPM, AI governance, innovation management, analyst prioritiser) [EV-015][EV-016][EV-017][EV-008][EV-009]. 3. Adopt a lightweight BA operating discipline/workflow (this concept). 4. Combination. No option selected in Phase 1.
 
-## Expected Benefits (categories — not yet quantified)
+## Expected Benefits (HYPOTHESISED — not yet validated)
 
-- Fewer AI initiatives abandoned after PoC (avoided sunk cost).
+- Fewer initiatives abandoned after PoC.
 - Better-qualified demand and clearer prioritisation.
-- Explicit value baselines and expected-vs-actual measurement.
-- Governance and auditability captured early.
+- Explicit value baselines and expected-vs-actual measurement (candidate: the five-layer model [EV-012]).
+- Governance/auditability captured early.
 - Faster, more consistent BA discovery via AI assistance under human control.
-Quantification requires baseline data (see Measures of Success).
+Each benefit is a hypothesis; quantification requires baseline data.
 
 ## Potential Costs / Effort Categories
 
-Discovery/BA effort; workflow/tool build or configuration; AI usage costs; integration; governance/DPIA effort; change and adoption effort; maintenance. No monetary figures are asserted at this stage.
+BA/discovery effort; workflow build/config; AI usage cost (note operating-cost constraint [EV-011]); integration; governance/DPIA effort; change/adoption effort; maintenance. No monetary figures asserted.
 
 ## Risks
-
-See docs/RISKS.md (product, evidence, AI, adoption, vendor lock-in, research bias, portfolio-credibility, overengineering).
+See docs/RISKS.md.
 
 ## Constraints
-
-Free-first tooling; synthetic data only; provider independence; no implication of real-company internal data; human approval for material AI outputs; defensible in interview; proper traceability and governance.
+Free-first; synthetic data only; provider independence; no real-company data; human approval for material AI outputs; defensible in interview; traceability and governance.
 
 ## Assumptions
-
-See docs/ASSUMPTIONS.md. Key: better front-end BA discipline meaningfully improves outcomes; buyers value traceability/governance over scoring alone; baseline data can be captured.
+See docs/ASSUMPTIONS.md (value gap validated by secondary external research, ASM-001; the BA-discipline mechanism OPEN, ASM-002/ASM-010).
 
 ## Measures of Success
 
-Categories only (targets TBD after baseline): qualification quality; prioritisation clarity; evidence completeness; governance capture; adoption; expected-vs-actual value accuracy; BA cycle time; portfolio/demo credibility. Numeric ROI cannot be stated credibly yet — **baseline data is required** before any value figure is defensible.
+Categories only (targets TBD after baseline): qualification quality; prioritisation clarity; evidence completeness; governance capture; adoption; expected-vs-actual value accuracy; BA cycle time; portfolio/demo credibility. **Numeric ROI cannot be stated credibly yet — baseline data is required.** The five-layer measurement framework [EV-012] is a candidate structure.
 
 ## Why Do Anything?
 
-Because the evidenced failure rate of AI initiatives is high and concentrated in exactly the framing/evidence/governance/measurement gaps a BA addresses [EV-001][EV-002][EV-003].
+Because the adoption-vs-value gap is well evidenced [EV-002][EV-011][EV-012]; whether *this* approach helps is what the project tests.
 
 ## Why Now?
 
-AI adoption is widespread while value realisation and governance maturity lag [EV-003], and UK governance expectations are explicit [EV-004][EV-005][EV-006]; the discipline is relevant now and demonstrable as a portfolio asset.
+Adoption is widespread while value realisation lags [EV-011][EV-012] and UK governance has just been refreshed by the DUAA 2025 [EV-013]; the topic is current and demonstrable.
 
 ## What Happens If We Do Nothing?
 
-Ad-hoc intake continues; the concept remains unvalidated; the portfolio asset is not produced. There is no operational harm (independent project), only a missed learning/demonstration opportunity.
+The hypothesis stays untested; the portfolio asset is not produced. No operational harm (independent project).
 
 ## Recommendation for Next Discovery Stage
 
-Proceed to deeper discovery: validate the problem and journey against synthetic stakeholder scenarios, hands-on evaluate one or two comparable tools, and define baseline/measurement method — before any technology selection or build. Rationale: the problem is well evidenced, but differentiation is only partially established and the strongest failure cause (adoption/integration) must be addressed, not just discovery [EV-002].
+Proceed to deeper discovery — validate the problem and journey against synthetic stakeholder scenarios, hands-on evaluate one or two comparable tools, and define the baseline/measurement method — before any technology selection or build. The problem is evidenced; the effectiveness of a BA-led remedy, and any market gap, remain hypotheses.

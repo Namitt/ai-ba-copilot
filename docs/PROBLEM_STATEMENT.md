@@ -3,42 +3,42 @@
 Status: DRAFT
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case
+Phase: 1 — Formal Discovery & Business Case (owner-review amended)
 
-> DRAFT. Evidence references point to research/sources/PHASE1_SOURCES.md. Evidence and assumption are kept separate.
+> DRAFT. Evidence and hypothesis are kept strictly separate. Where the evidence does not directly establish our specific project problem, it is stated as a hypothesis to test — not as fact.
 
-## WHO experiences the problem?
+## Framing
 
-An AI & Innovation function — primarily the Business Analyst role within it — and the business stakeholders whose requests it receives. Secondary: Head of AI/Innovation, engineering, finance, data/privacy, delivery and end users.
+AI & Innovation functions can receive heterogeneous business requests ("Can AI solve this?") through multiple channels — meetings, messages, ideas, complaints. **This project tests whether a structured, BA-led process improves consistency across problem framing, evidence, options, governance and value measurement.** Whether inconsistent intake and qualification materially drive poor outcomes is a hypothesis, not an established fact.
 
-## WHAT is happening?
+## WHO (may) experience the problem?
 
-Unstructured AI demand ("Can AI solve this?") arrives through meetings, messages, ideas and complaints and is progressed without consistent discovery, evidence, prioritisation, options appraisal, governance or value measurement.
+An AI & Innovation function — primarily the Business Analyst role within it — and the business stakeholders whose requests it receives. Secondary: Head of AI/Innovation, engineering, finance, data/privacy, delivery, end users.
 
-## WHERE in the workflow does it occur?
+## WHAT the evidence actually shows
 
-At the front of the lifecycle — intake, discovery and opportunity qualification — and again at the back, where adoption and value are not measured against a baseline. (See docs/processes/AS_IS_PROCESS.md.)
+- A large gap between AI activity and measured enterprise value: Gartner *forecasts* ≥30% of GenAI projects abandoned after PoC by end-2025 [EV-001]; MIT NANDA (preliminary) reports ~95% of organisations see no measurable P&L return [EV-002]; McKinsey 2026 reports ~90% regular use but 44% scaling and 37% positive EBIT contribution [EV-011], and ~80% deploying gen AI while ~60% see no enterprise-wide EBIT impact [EV-012].
+- Reported contributors are multiple: unclear value, data/integration, governance, adoption, measurement and operating-model issues [EV-002][EV-011][EV-012].
 
-## WHY does it matter?
+## WHAT is hypothesised (not yet evidenced)
 
-Poorly qualified demand leads to abandoned pilots, wasted spend, premature solutioning, weak governance and unrealised value.
+- That AI/innovation functions frequently qualify demand inconsistently.
+- That inconsistent intake/qualification materially contributes to the value gap.
+- That a BA-led operating discipline improves outcomes.
+These are open hypotheses to validate against synthetic stakeholder scenarios.
 
-## WHAT evidence supports the claim?
+## WHERE (hypothesised) the problem sits
 
-- ≥30% of GenAI projects predicted abandoned after PoC by end 2025 [EV-001].
-- ~95% of enterprise GenAI pilots report no measurable P&L impact [EV-002].
-- High adoption but early value capture and immature governance [EV-003].
-- UK governance expectations (ICO DPIA; DSIT principles) require explicit accountability, DPIA and oversight [EV-004][EV-005][EV-006].
+At the front of the lifecycle (intake, discovery, qualification) and again at the back (adoption and value not measured against a baseline). See docs/processes/AS_IS_PROCESS.md (hypothesised).
 
-## WHAT remains unknown?
+## WHY it would matter (if the hypothesis holds)
 
-Whether better front-end BA discipline materially changes outcomes; how much of the failure is discovery vs adoption/integration [EV-002]; whether target users would adopt a BA-led workflow; what baselines are realistically obtainable. These are ASSUMPTIONS to validate, not established facts.
+Poorly qualified demand and unmeasured outcomes would waste effort and leave value unrealised.
 
-## WHAT are the consequences of doing nothing?
+## WHAT remains unknown
 
-For a real organisation: continued abandonment, wasted investment, governance exposure and unrealised value. For this independent project: the concept stays unvalidated and the portfolio demonstration is not produced (no operational harm).
+Whether better front-end discipline changes outcomes; how much of the gap is discovery vs adoption/integration [EV-002][EV-012]; whether target users would adopt a BA-led workflow; what baselines are obtainable.
 
-## Evidence vs assumption (summary)
+## Consequences of doing nothing
 
-- EVIDENCE: high failure/abandonment rates; adoption-vs-value gap; governance immaturity; UK governance requirements.
-- ASSUMPTION: that a BA-led operating workflow is the effective remedy and would be adopted — to be validated in later discovery.
+For a real organisation: continued abandonment/unrealised value (per the evidence). For this independent project: the hypothesis stays untested and the portfolio demonstration is not produced (no operational harm).

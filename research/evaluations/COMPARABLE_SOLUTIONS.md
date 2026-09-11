@@ -3,68 +3,84 @@
 Status: DRAFT
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case
+Phase: 1 — Formal Discovery & Business Case (owner-review amended)
 
 ## Purpose
 
-Assess existing product/framework categories that overlap with AI BA Copilot, to test whether there is genuine space for a BA-led operating workflow. The objective is not to say competitors are weak; it is to locate the gap honestly. Vendor descriptions are labelled as vendor claims and were not independently tested.
+Second-pass evaluation of representative solutions that overlap with AI BA Copilot, using direct product/primary documentation wherever practical, to test whether a potential gap exists. The objective is not to say competitors are weak; it is to locate any gap honestly.
 
-## Method and limitation
+## Evidence status key
 
-Category-level scan from analyst, vendor and practitioner sources ([EV-008][EV-009][EV-010]); no hands-on product trials were performed. Conclusions are DRAFT and should be validated by hands-on evaluation of one or two representative tools.
+Each attribute is marked **VERIFIED** (stated on the product/primary page accessed 2026-09-11), **PARTIALLY VERIFIED** (from a vendor blog or analyst abstract, not a full product page), or **NOT EVIDENCED** (not confirmed from an accessible source — an absence of evidence, not proof of absence). Low/Medium/High judgements are avoided.
 
-## Categories assessed
+## Solutions evaluated (5)
 
-### 1. Innovation / idea management platforms
-- Examples (vendor-described [EV-008]): ITONICS, HYPE, Brightidea, Planview IdeaPlace, Qmarkets.
-- Target user: innovation teams, transformation offices.
-- Core workflow: signal/trend → idea intake → scoring/voting → portfolio/roadmap.
-- Prioritisation: scoring, ML theming, gamified voting.
-- Value/ROI: portfolio dashboards; limited rigorous baseline/benefit measurement.
-- Governance: generally not AI-governance specific.
-- Requirements/delivery: not a BA requirements tool.
-- Measurement/adoption: participation and pipeline metrics rather than outcome realisation.
-- Strengths: strong at capturing and funnelling many ideas.
-- Gaps vs our concept: not evidence-led BA discovery; weak on options appraisal, requirements, AI-specific governance and expected-vs-actual outcome measurement.
+### 1. IBM Txture — AI transformation planning & assessment [EV-015]
+- Source: IBM product page — VERIFIED.
+- Target user: enterprise IT leadership, application-portfolio managers.
+- Verified capabilities: IT/application landscape assessment from CMDB/EA data; AI use-case identification via "5A" method; segmentation into quick wins/strategic bets/delivery waves; effort, cost, payback and multi-year benefit quantification.
+- Opportunity intake: application-portfolio-driven — VERIFIED. Business pain-point intake: NOT EVIDENCED.
+- Discovery/problem framing: NOT EVIDENCED (starts from application inventory).
+- Prioritisation: VERIFIED (5A scoring, waves).
+- Value/ROI: VERIFIED (payback, first-year, three-year benefit).
+- Governance (responsible-AI): NOT EVIDENCED.
+- Requirements/delivery: NOT EVIDENCED.
+- Pilot/measurement, adoption measurement, traceability: NOT EVIDENCED.
+- Overlap: prioritisation and ROI quantification. Potential gap / capability not evidenced in reviewed source: business discovery, governance capture, requirements, adoption/outcome measurement.
 
-### 2. Strategic / project portfolio management (SPM/PPM)
-- Examples: Planisware, Planview (AI-driven SPM capabilities).
-- Target user: PMO, portfolio leaders, finance.
-- Core workflow: demand → prioritisation → funding → delivery tracking.
-- Prioritisation: value/cost/capacity, scenario planning.
-- Value/ROI: financial planning strong; AI-value nuance (deployed vs adopted vs value) not specific.
-- Governance: enterprise controls, not AI-responsible-AI capture.
-- Strengths: funding, capacity, executive portfolio view.
-- Gaps vs our concept: heavyweight, delivery/finance-oriented; not a BA discovery + AI-opportunity + responsible-AI workflow.
+### 2. Planview — Strategic Portfolio Management [EV-016]
+- Source: Planview product page — VERIFIED.
+- Target user: CFO/board, transformation office, EPMO/PMO, finance.
+- Verified capabilities: demand intake (unstructured ideas → formal requests); investment prioritisation (what-if, business drivers); funding/roadmaps; delivery tracking; investment-to-outcome and benefits/ROI tracking.
+- Opportunity intake: VERIFIED (general demand, not AI-specific).
+- Discovery/problem framing: NOT EVIDENCED (portfolio/PPM, not BA discovery).
+- Prioritisation: VERIFIED. Value/ROI: VERIFIED (benefits realisation).
+- Governance (responsible-AI): NOT EVIDENCED (enterprise controls, not AI-specific).
+- Requirements/delivery: PARTIALLY VERIFIED (delivery tracking; not AI requirements/acceptance criteria).
+- Pilot/adoption measurement for AI: NOT EVIDENCED. Traceability: PARTIALLY VERIFIED (investment-to-outcome).
+- Overlap: intake→prioritise→fund→track→benefits. Potential gap / capability not evidenced in reviewed source: AI-specific discovery, responsible-AI capture, AI requirements and adoption measurement.
 
-### 3. Analyst use-case prioritisation offerings
-- Examples: Gartner AI Use Case Insights / "vet, prioritize and fund AI use cases" [EV-009].
+### 3. Credo AI — AI governance platform [EV-017]
+- Source: Credo AI product page — VERIFIED.
+- Target user: enterprises scaling AI under governance (financial services, health, public sector).
+- Verified capabilities: AI use-case/system registry and shadow-AI discovery; continuous risk assessment; policy mapping to EU AI Act/NIST AI RMF/ISO 42001; audit/evidence.
+- Opportunity intake: PARTIALLY VERIFIED (registration of AI systems/use cases, governance-oriented, not business-value intake).
+- Discovery/problem framing: NOT EVIDENCED. Prioritisation by value: NOT EVIDENCED.
+- Value/ROI: NOT EVIDENCED. Governance: VERIFIED (its core).
+- Requirements/delivery: NOT EVIDENCED. Pilot/adoption/value measurement: NOT EVIDENCED. Traceability: VERIFIED (governance evidence/audit).
+- Overlap: governance capture and traceability. Potential gap / capability not evidenced in reviewed source: business discovery, value definition, prioritisation, requirements, outcome measurement.
+
+### 4. ITONICS — innovation management [EV-008]
+- Source: vendor blog — PARTIALLY VERIFIED.
+- Target user: innovation/transformation teams.
+- Capabilities (vendor claim): foresight, ideation, portfolio; idea intake → scoring → portfolio/roadmap.
+- Opportunity intake: PARTIALLY VERIFIED. Discovery/problem framing: NOT EVIDENCED. Prioritisation: PARTIALLY VERIFIED.
+- Value/ROI, governance, requirements, pilot/adoption measurement, traceability: NOT EVIDENCED.
+- Overlap: idea intake and prioritisation. Potential gap / capability not evidenced in reviewed source: evidence-led BA discovery, governance, requirements, measurement.
+
+### 5. Gartner AI Use Case Insights / portfolio guidance [EV-009]
+- Source: analyst product page/abstract — PARTIALLY VERIFIED (paywalled).
 - Target user: leaders selecting/funding AI investments.
-- Core workflow: catalogue → score → portfolio funding guidance.
-- Prioritisation: analyst-grade value/feasibility.
-- Strengths: credible, benchmarked prioritisation.
-- Gaps vs our concept: advisory/benchmarking content and scoring, not an operating workflow that carries a single pain point through evidence, requirements, pilot and measured outcome with traceability.
+- Capabilities: catalogue, benchmarked value/feasibility prioritisation, funding guidance.
+- Opportunity intake: PARTIALLY VERIFIED. Discovery/problem framing: NOT EVIDENCED. Prioritisation: PARTIALLY VERIFIED. Value/ROI: PARTIALLY VERIFIED.
+- Governance, requirements, pilot/adoption measurement, traceability: NOT EVIDENCED (advisory content, not an operating workflow).
+- Overlap: prioritisation guidance. Potential gap / capability not evidenced in reviewed source: an operating workflow carrying one pain point end-to-end with traceability.
 
-### 4. Data-science / AI platforms
-- Examples (category): Dataiku, DataRobot, cloud AI suites (not separately fetched).
-- Target user: data science / ML engineering.
-- Core workflow: build → deploy → monitor models.
-- Gaps vs our concept: engineering-centric; assume the opportunity is already chosen and framed — the BA front-half is out of scope for them.
+## Overlap summary (evidence-qualified)
 
-## Overlap summary
-
-| Capability | Innovation mgmt | SPM/PPM | Analyst prioritiser | DS platforms | AI BA Copilot (proposed) |
+| Capability | Txture | Planview | Credo AI | ITONICS | Gartner |
 |---|---|---|---|---|---|
-| Idea/pain-point intake | Strong | Medium | Low | Low | Core |
-| Evidence-led BA discovery | Low | Low | Low | Low | Core (differentiator) |
-| Prioritisation | Strong | Strong | Strong | Low | Included (not the differentiator) |
-| AI vs non-AI options appraisal | Low | Low | Medium | Low | Core |
-| Requirements + acceptance criteria | Low | Low | Low | Low | Core |
-| Responsible-AI / governance capture | Low | Medium | Medium | Medium | Core (differentiator) |
-| Value model: deployed≠adopted≠value | Low | Medium | Medium | Low | Core (differentiator) |
-| Pilot + expected-vs-actual measurement | Low | Medium | Low | Medium | Core (differentiator) |
-| Traceability + human-approval gates | Low | Medium | Low | Low | Core (differentiator) |
+| Business pain-point intake | Not evidenced | Verified (general) | Partial (gov) | Partial | Partial |
+| Evidence-led BA discovery | Not evidenced | Not evidenced | Not evidenced | Not evidenced | Not evidenced |
+| Prioritisation | Verified | Verified | Not evidenced | Partial | Partial |
+| Responsible-AI governance capture | Not evidenced | Not evidenced | Verified | Not evidenced | Not evidenced |
+| Requirements + acceptance criteria | Not evidenced | Partial | Not evidenced | Not evidenced | Not evidenced |
+| Value model (deployed≠adopted≠value) | Partial (ROI) | Partial (benefits) | Not evidenced | Not evidenced | Partial |
+| Pilot + adoption/outcome measurement | Not evidenced | Not evidenced | Not evidenced | Not evidenced | Not evidenced |
+| End-to-end traceability | Not evidenced | Partial | Verified (gov) | Not evidenced | Not evidenced |
 
 ## Conclusion (DRAFT)
 
-Prioritisation and idea/portfolio management are well served and should not be claimed as novel. The unoccupied space is a **BA-led operating workflow with end-to-end traceability** that takes a single business pain point from evidence and options appraisal through responsible-AI governance capture, requirements, pilot and expected-vs-actual outcome measurement, with explicit human-approval gates. This differentiation is **plausible but partial**, and is challenged by evidence [EV-002] that adoption/integration — not discovery — is the dominant failure cause; the product must therefore prove value across the whole journey, not just the front end.
+The reviewed products provide substantial capabilities in prioritisation, portfolio management and AI governance. Across the five evaluated, no single product was evidenced to combine BA-led discovery, responsible-AI capture, requirements, and pilot/adoption/outcome measurement as one traceable operating workflow.
+
+**Our current hypothesis is that a potential gap exists** for such a BA-led operating workflow. This is a hypothesis, not proven market whitespace: the scan is documentation-based (not hands-on), several attributes are only PARTIALLY VERIFIED or NOT EVIDENCED, and evidence [EV-002][EV-012] indicates adoption/integration and measurement — not discovery — are the harder problems, so any gap must be tested by hands-on evaluation and stakeholder scenarios before it is claimed.

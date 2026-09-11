@@ -3,77 +3,65 @@
 Status: DRAFT
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case
+Phase: 1 — Formal Discovery & Business Case (owner-review amended)
 
 ## Purpose
 
-Consolidated Phase 1 findings across the five research streams. Each finding separates FACT / SOURCE CLAIM, INTERPRETATION, PROJECT IMPLICATION and ASSUMPTION, and references the source register ([EV-###] in research/sources/PHASE1_SOURCES.md). This is DRAFT evidence, not owner-approved conclusion.
+Consolidated Phase 1 findings. Each finding separates **EVIDENCE** (what sources state) from **OUR HYPOTHESIS** (what we infer or propose, which is not yet demonstrated), with source references ([EV-###] in research/sources/PHASE1_SOURCES.md). DRAFT — not owner-approved conclusion.
+
+> Correction note (owner review): earlier wording implied poor front-end BA discovery is a dominant *cause* of AI failure. The evidence does not establish that. Causal claims have been removed; the role of BA discipline is stated as a hypothesis to validate.
 
 ---
 
 ## Stream A — Problem / demand & prioritisation
 
-**F-A1**
-- FACT / SOURCE CLAIM: Gartner predicts ≥30% of GenAI projects abandoned after PoC by end of 2025, citing unclear business value, poor data quality, cost and weak risk controls [EV-001]. MIT NANDA reports ~95% of enterprise GenAI pilots fail to deliver measurable P&L impact [EV-002].
-- INTERPRETATION: A large share of AI demand is progressed without adequate problem framing, evidence, value definition or governance.
-- PROJECT IMPLICATION: There is a genuine enterprise problem in how AI opportunities are qualified before investment — the space AI BA Copilot targets.
-- ASSUMPTION: That better front-end BA discipline would materially change these outcomes (to be validated; see challenge in Stream E).
+**F-A1 — There is a large gap between AI activity and measured value.**
+- EVIDENCE: Gartner *forecasts* ≥30% of GenAI projects abandoned after PoC by end-2025 (a prediction, not an observed rate) [EV-001]. MIT NANDA (preliminary) reports ~95% of organisations see no measurable P&L return, with ~5% of integrated pilots capturing significant value [EV-002]. McKinsey 2026 reports 37% attribute positive EBIT contribution and 44% scaling enterprise-wide despite ~90% regular use [EV-011].
+- OUR HYPOTHESIS: Better-qualified demand and disciplined discovery *could* reduce wasted effort. This is not demonstrated by the evidence.
 
-**F-A2**
-- FACT / SOURCE CLAIM: Value-vs-feasibility scoring and portfolio framing of AI use cases are widely documented and commoditised [EV-009][EV-010].
-- INTERPRETATION: Prioritisation mechanics are not novel; many tools and frameworks already do impact/effort scoring.
-- PROJECT IMPLICATION: Differentiation cannot rest on "we prioritise use cases." It must rest on the evidenced, traceable, governed, measured operating discipline around prioritisation.
-- ASSUMPTION: Buyers value discipline/traceability over a scoring widget (to be validated).
+**F-A2 — Prioritisation is widely available across the reviewed offerings/frameworks.**
+- EVIDENCE: Value-vs-feasibility scoring and portfolio framing are widely documented across analyst, vendor and practitioner sources [EV-009][EV-010][EV-015][EV-016].
+- OUR HYPOTHESIS: Differentiation cannot rest on prioritisation; if there is value, it lies in evidenced, traceable, governed, measured operating discipline. To validate.
 
-**F-A3 (what typically goes wrong)**
-- FACT / SOURCE CLAIM: Reported failure causes cluster around unclear value, data/integration gaps, weak governance and poor adoption [EV-001][EV-002][EV-003].
-- INTERPRETATION: Failure is mostly organisational and evidentiary, not model capability.
-- PROJECT IMPLICATION: The workflow should force explicit evidence, value hypotheses, governance and measurement — not just idea capture.
+**F-A3 — Reported problems are multiple, not a single BA-discovery cause.**
+- EVIDENCE: Reported contributors span unclear value, data/integration challenges, governance immaturity, adoption, measurement and operating-model/workflow issues [EV-001][EV-002][EV-011][EV-012].
+- OUR HYPOTHESIS: A structured BA-led process *might* improve consistency across framing, evidence, options, governance and measurement. Explicitly a hypothesis.
 
 ## Stream B — BA in AI / innovation
 
-**F-B1**
-- FACT / SOURCE CLAIM: IIBA states AI assists synthesis and administrative work while BA judgement (technique selection, validation, accountability) stays human — "assistant, not authority" [EV-007].
-- INTERPRETATION: The "AI assists, BA decides" control model is consistent with professional-body positioning.
-- PROJECT IMPLICATION: Supports the product's core control model and human-approval gates.
-- ASSUMPTION: None material; well aligned with established BA doctrine (BABOK-style discovery, elicitation, traceability).
+**F-B1 — AI assists; the BA decides.**
+- EVIDENCE: IIBA states AI accelerates synthesis/admin while BA judgement and accountability remain human — "assistant, not authority" [EV-007].
+- OUR HYPOTHESIS: None needed — this supports the control model directly.
 
-**F-B2 (what belongs to a BA, not an engineer)**
-- INTERPRETATION (from EV-007 plus standard BA practice): Problem framing, stakeholder analysis, current-state analysis, evidence gathering, options appraisal, requirements and acceptance criteria, benefits definition, and traceability are BA work; model building, data pipelines and deployment are engineering.
-- PROJECT IMPLICATION: The workflow's front half is legitimately BA-owned; this is defensible, not inflated.
-- ASSUMPTION: Kept honest — the product must not claim BA ownership of engineering feasibility, only of framing/evidence/value/governance capture.
+**F-B2 — What plausibly belongs to a BA.**
+- EVIDENCE: IIBA's official definition frames business analysis as "enabling change ... by defining needs and recommending solutions that deliver value to stakeholders" [EV-018]; IIBA also describes AI as assistant to BA judgement [EV-007].
+- PROJECT INTERPRETATION / SCOPE: Building on that definition, standard BABOK-aligned BA practice includes problem framing, stakeholder analysis, current-state analysis, evidence gathering, options appraisal, requirements/acceptance criteria, benefits definition and traceability; model building, data pipelines and deployment are engineering. This task decomposition reflects common BA practice to be validated in the project — not a claim evidenced by EV-007 alone.
+- We do not claim BA ownership of engineering feasibility.
 
 ## Stream C — Value / ROI / adoption
 
-**F-C1**
-- FACT / SOURCE CLAIM: McKinsey reports high adoption (65% gen AI in ≥1 function; ~72% overall) but early value capture — as reported, only 46 of 876 respondents attribute >10% of EBIT to gen AI [EV-003]. MIT reports most pilots show no P&L impact [EV-002].
-- INTERPRETATION: There is a clear gap between deploying AI and realising business value.
-- PROJECT IMPLICATION: The workflow must explicitly model: AI deployed ≠ AI adopted ≠ business value achieved, with baselines and expected-vs-actual measurement.
-- ASSUMPTION: Organisations can capture baseline data; often they cannot (see risk).
+**F-C1 — Adoption is high; enterprise value lags.**
+- EVIDENCE: McKinsey 2026 — ~90% regular use, 44% scaling, 37% positive EBIT contribution, ~1 in 5 constrained by operating costs [EV-011]. McKinsey Apr 2026 — ~80% deploy gen AI yet ~60% report no enterprise-wide EBIT impact [EV-012]. (2024 baseline retained for comparison [EV-003].)
+- OUR HYPOTHESIS: Modelling deployed ≠ adopted ≠ value, with baselines and expected-vs-actual measurement, *could* help close the gap. To validate.
 
-**F-C2**
-- FACT / SOURCE CLAIM: No defensible generic ROI percentage exists to reuse; figures are context-specific and reported value is early [EV-001][EV-003].
-- INTERPRETATION: Any ROI in the business case must be stated as method + required baseline, not a fabricated number.
-- PROJECT IMPLICATION: BUSINESS_CASE.md states benefit categories and measurement method, and explicitly flags that baseline data is required before numbers are credible.
+**F-C2 — A concrete measurement method exists.**
+- EVIDENCE: McKinsey proposes a five-layer measurement framework (technical → adoption → operational → strategic → financial) and building measurement into rollout with governance gates and evidence packs [EV-012].
+- PROJECT IMPLICATION: The business case states a measurement method rather than a fabricated ROI; the five-layer model is a candidate structure. Baseline data is required before any ROI figure.
 
-## Stream D — Governance (UK-oriented)
+## Stream D — Governance (UK-oriented; Sept 2026)
 
-**F-D1**
-- FACT / SOURCE CLAIM: ICO applies UK GDPR principles to AI and expects DPIAs for high-risk processing (innovative tech, large-scale, automated decisions with significant effects, vulnerable individuals) [EV-004][EV-005]. DSIT sets five AI principles: safety/security/robustness, transparency/explainability, fairness, accountability/governance, contestability/redress [EV-006].
-- INTERPRETATION: There is a concrete, recognised set of governance fields a UK AI workflow should capture.
-- PROJECT IMPLICATION: The workflow should capture, per opportunity: personal-data use and DPIA trigger check, decision-significance/automation level, human-oversight point, fairness/bias consideration, transparency/explainability need, and accountable owner — mapped to the five principles.
-- ASSUMPTION: A portfolio/demonstration project can model these without giving legal advice (explicitly non-legal-advice).
+**F-D1 — Law/regulatory guidance vs government practice guidance are distinct.**
+- EVIDENCE (LAW/REG): ICO applies UK GDPR to AI [EV-004]; DPIAs required for high-risk processing [EV-005]; the DUAA 2025 (data-protection provisions in force by 19 Jun 2026) expands lawful bases for significant automated decisions with safeguards, excluding special category data [EV-013].
+- EVIDENCE (GOV-POLICY): DSIT's five AI principles [EV-006] — explicitly non-statutory.
+- EVIDENCE (GOV-PRACTICE): the UK Government AI Playbook [EV-014] (Feb 2025, GDS) — explicitly practice guidance for government, not law for private organisations; ten practical principles incl. meaningful human control, full AI lifecycle, right tool for the job, assurance and early commercial involvement.
+- PROJECT IMPLICATION: Per opportunity, capture: personal-data use + DPIA trigger check; ADM significance/automation level and its DUAA-era safeguard/lawful basis; human-oversight point; fairness/transparency need; accountable owner. Keep LAW/REG separate from PRACTICE; this is not legal advice.
 
 ## Stream E — Existing solutions
 
-**F-E1**
-- FACT / SOURCE CLAIM: Adjacent categories exist and are mature: innovation-management platforms (ITONICS, HYPE, Brightidea, Planview IdeaPlace — vendor-described) [EV-008]; AI-driven strategic/project portfolio management (Planisware, Planview); and analyst use-case prioritisation offerings (Gartner AI Use Case Insights / portfolio guidance) [EV-009].
-- INTERPRETATION: Idea intake, scoring, portfolio and funding views are already well served.
-- PROJECT IMPLICATION: Overlap is real; see COMPARABLE_SOLUTIONS.md. Differentiation must be the BA-led operating discipline (evidence → options → value → requirements → pilot → measured outcome) with traceability, governance capture and human-approval gates — not idea funnelling or PPM.
-- ASSUMPTION: No existing product combines all of these as a BA operating workflow (based on category scan, not exhaustive product testing — a limitation).
+**F-E1 — Adjacent solution categories cover substantial parts of the workflow.**
+- EVIDENCE: IT/application AI-transformation assessment (IBM Txture — 5A method, ROI quantification) [EV-015]; strategic portfolio management (Planview — intake→prioritise→fund→track→benefits) [EV-016]; AI governance (Credo AI — use-case registry, risk, policy mapping) [EV-017]; innovation management (ITONICS, vendor) [EV-008]; analyst prioritisation (Gartner) [EV-009]. See COMPARABLE_SOLUTIONS.md.
+- OUR HYPOTHESIS: No single evidenced product combines BA-led discovery + options + responsible-AI capture + requirements + pilot/adoption/value measurement + traceability as one operating workflow. Stated as a **potential gap** hypothesis, not proven whitespace.
 
-**F-E2 (challenge to the hypothesis)**
-- FACT / SOURCE CLAIM: MIT attributes success more to integration, adaptation and line-level adoption than to front-end selection [EV-002].
-- INTERPRETATION: Better discovery alone will not fix the value gap if adoption/integration is ignored.
-- PROJECT IMPLICATION: The workflow must extend through pilot, adoption and outcome measurement — a discovery-only tool would not address the strongest evidenced failure cause.
-- ASSUMPTION: The BA-led framing adds value beyond existing tools specifically because it carries evidence and measurement end-to-end (to be validated with stakeholder scenarios).
+**F-E2 — Value realisation depends on more than discovery.**
+- EVIDENCE: MIT emphasises integration, adaptation and adoption as important contributors to value realisation [EV-002]; McKinsey emphasises measurement and operating-model factors [EV-012]. These sources do not establish that front-end discovery is unimportant.
+- PROJECT IMPLICATION (hypothesis): Discovery alone is unlikely to be sufficient; the proposed workflow therefore tests an end-to-end model through adoption and outcome measurement.
