@@ -1,9 +1,11 @@
 # Assumptions Register
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
+
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval means this artefact is accepted as the current project baseline; hypotheses explicitly marked OPEN remain unvalidated. OPEN assumptions remain OPEN.
 
 > Status values: **OPEN / VALIDATED / INVALIDATED** (evidence strength is described in the validation/evidence column, not encoded in the Status). ASM-001 was split from an earlier conflated item (owner review) to separate the evidence-supported value gap from the unvalidated claim about intake/qualification. Identifiers are not renumbered.
 

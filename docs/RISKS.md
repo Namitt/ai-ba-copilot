@@ -1,9 +1,11 @@
 # Project Risk Register
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
+
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval means this artefact is accepted as the current project baseline; hypotheses explicitly marked OPEN remain unvalidated.
 
 > Only meaningful risks. Probability/Impact: Low / Medium / High. Updated only where the amended research changed the picture (RSK-001, RSK-002, RSK-010).
 

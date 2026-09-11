@@ -1,9 +1,11 @@
 # Product Vision
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
+
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval means this artefact is accepted as the current project baseline; hypotheses explicitly marked OPEN remain unvalidated.
 
 ## Thesis
 AI adoption is widespread, while enterprise value realisation remains difficult; evidence points to adoption, integration, governance, measurement, value-definition and operating-model challenges [EV-002][EV-011][EV-012]. AI BA Copilot tests whether a BA-led operating workflow can provide connective discipline from business problem through governed, measured outcome. This mechanism is a hypothesis, not a proven fact.

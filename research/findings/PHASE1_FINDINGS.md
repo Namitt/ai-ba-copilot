@@ -1,13 +1,15 @@
 # Phase 1 Discovery — Findings
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
+
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval accepts these findings as the current baseline; items marked OUR HYPOTHESIS / PROJECT INTERPRETATION remain unvalidated.
 
 ## Purpose
 
-Consolidated Phase 1 findings. Each finding separates **EVIDENCE** (what sources state) from **OUR HYPOTHESIS** (what we infer or propose, which is not yet demonstrated), with source references ([EV-###] in research/sources/PHASE1_SOURCES.md). DRAFT — not owner-approved conclusion.
+Consolidated Phase 1 findings. Each finding separates **EVIDENCE** (what sources state) from **OUR HYPOTHESIS** (what we infer or propose, which is not yet demonstrated), with source references ([EV-###] in research/sources/PHASE1_SOURCES.md). Owner-approved Phase 1 baseline; items marked OUR HYPOTHESIS remain unvalidated.
 
 > Correction note (owner review): earlier wording implied poor front-end BA discovery is a dominant *cause* of AI failure. The evidence does not establish that. Causal claims have been removed; the role of BA discipline is stated as a hypothesis to validate.
 

@@ -1,11 +1,13 @@
 # Stakeholder Analysis
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
 
-> DRAFT stakeholder model for a hypothesised AI & Innovation function. No named individuals — synthetic roles only. RACI is not finalised. Interest/influence ratings are DRAFT judgements from secondary research, to be validated against synthetic stakeholder scenarios.
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval means this artefact is accepted as the current project baseline; hypotheses explicitly marked OPEN remain unvalidated.
+
+> Baseline stakeholder model for a hypothesised AI & Innovation function. No named individuals — synthetic roles only. RACI is not finalised. Interest/influence ratings are provisional judgements from secondary research, to be validated against synthetic stakeholder scenarios.
 
 ## Stakeholder categories
 

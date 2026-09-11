@@ -1,9 +1,11 @@
 # Phase 1 Discovery — Source Register
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
+
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval accepts this source register as the current baseline; source limitations recorded per entry stand.
 
 ## Purpose
 

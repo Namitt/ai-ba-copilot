@@ -1,9 +1,11 @@
 # AS-IS Process (Hypothesised)
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
+
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval accepts this as the current baseline; the process and its failure modes remain explicitly hypothesised and unvalidated.
 
 > **Hypothesised generic current state derived from secondary research, to be validated against future stakeholder scenarios.** This is NOT an observed process of any specific organisation. Every step and every failure mode below is a HYPOTHESIS / POTENTIAL FAILURE MODE, not an observation presented as reality.
 

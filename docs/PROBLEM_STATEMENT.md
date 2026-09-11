@@ -1,11 +1,13 @@
 # Problem Statement
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
 
-> DRAFT. Evidence and hypothesis are kept strictly separate. Where the evidence does not directly establish our specific project problem, it is stated as a hypothesis to test — not as fact.
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval means this artefact is accepted as the current project baseline; hypotheses explicitly marked OPEN remain unvalidated.
+
+> Evidence and hypothesis are kept strictly separate. Where the evidence does not directly establish our specific project problem, it is stated as a hypothesis to test — not as fact.
 
 ## Framing
 

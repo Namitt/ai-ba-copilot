@@ -1,15 +1,17 @@
 # Business Case
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
 
-> DRAFT built from Phase 1 secondary research. Evidence references point to research/sources/PHASE1_SOURCES.md ([EV-###]). No ROI figures are fabricated. Effectiveness of the proposed approach is treated as a hypothesis, not a proven fact.
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval means this artefact is accepted as the current project baseline; hypotheses explicitly marked OPEN remain unvalidated.
+
+> Built from Phase 1 secondary research. Evidence references point to research/sources/PHASE1_SOURCES.md ([EV-###]). No ROI figures are fabricated. Effectiveness of the proposed approach is treated as a hypothesis, not a proven fact.
 
 ## Executive Summary
 
-AI adoption is widespread while enterprise value realisation remains difficult: ~90% of organisations report regular AI use, but only ~44% are scaling and ~37% report a positive EBIT contribution [EV-011]; MIT NANDA (preliminary) reports ~95% of organisations see no measurable P&L return [EV-002]. Reported contributors include unclear value, integration/data, governance, adoption, measurement and operating-model issues [EV-002][EV-011][EV-012]. AI BA Copilot proposes a BA-led operating workflow (AI assists, human BA decides). **A BA-led discipline could address several identified control gaps, but its effectiveness remains a hypothesis requiring validation.** This DRAFT supports a decision on whether to proceed to deeper discovery; it does not justify build investment.
+AI adoption is widespread while enterprise value realisation remains difficult: ~90% of organisations report regular AI use, but only ~44% are scaling and ~37% report a positive EBIT contribution [EV-011]; MIT NANDA (preliminary) reports ~95% of organisations see no measurable P&L return [EV-002]. Reported contributors include unclear value, integration/data, governance, adoption, measurement and operating-model issues [EV-002][EV-011][EV-012]. AI BA Copilot proposes a BA-led operating workflow (AI assists, human BA decides). **A BA-led discipline could address several identified control gaps, but its effectiveness remains a hypothesis requiring validation.** This document supports a decision on whether to proceed to deeper discovery; it does not justify build investment.
 
 ## Background
 

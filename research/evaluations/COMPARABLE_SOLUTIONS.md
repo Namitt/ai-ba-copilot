@@ -1,9 +1,11 @@
 # Phase 1 Discovery — Comparable Solutions Evaluation
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Last Updated: 2026-09-11
-Phase: 1 — Formal Discovery & Business Case (owner-review amended)
+Phase: 1 — Formal Discovery & Business Case (owner-approved baseline)
+
+> Owner-approved as the Phase 1 discovery baseline on 2026-09-11 (baseline commit fb5f23f). Approval accepts this documentation-based evaluation as the current baseline; the potential-gap conclusion remains a hypothesis (market whitespace not proven).
 
 ## Purpose
 
@@ -79,7 +81,7 @@ Each attribute is marked **VERIFIED** (stated on the product/primary page access
 | Pilot + adoption/outcome measurement | Not evidenced | Not evidenced | Not evidenced | Not evidenced | Not evidenced |
 | End-to-end traceability | Not evidenced | Partial | Verified (gov) | Not evidenced | Not evidenced |
 
-## Conclusion (DRAFT)
+## Conclusion
 
 The reviewed products provide substantial capabilities in prioritisation, portfolio management and AI governance. Across the five evaluated, no single product was evidenced to combine BA-led discovery, responsible-AI capture, requirements, and pilot/adoption/outcome measurement as one traceable operating workflow.
 
