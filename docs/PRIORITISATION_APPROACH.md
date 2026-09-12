@@ -1,9 +1,11 @@
 # Opportunity Prioritisation Approach
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2
 Basis: Phase 1 F-A2 and F-E1, EV-009/015/016/017 in research/sources/PHASE1_SOURCES.md; LC-004..006; four synthetic scenarios.
+
+> Owner-approved as part of the Phase 2 BA operating-model baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts this prioritisation approach as the current project model; it is business decision practice, not a software algorithm, and asserts no ROI.
 
 Prioritisation already exists in adjacent offerings. A simple score is not claimed as innovation. This proposal makes evidence strength, blockers, trade-offs and decision ownership visible. It is business decision practice, not a software algorithm or detailed product requirement.
 

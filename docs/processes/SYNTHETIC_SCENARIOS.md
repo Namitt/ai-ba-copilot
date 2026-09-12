@@ -1,10 +1,12 @@
 # Phase 2 Synthetic Stakeholder Scenarios
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2 — BA Operating Model & Business Process
 Date: 2026-09-11
 Baseline: Phase 1 content fb5f23f; closure 3cdbcce.
+
+> Owner-approved as part of the Phase 2 BA operating-model baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts these scenarios as the project's synthetic test set for internal stress testing; it does not make them empirical evidence, and prevalence, causation and efficacy remain unestablished.
 
 **SYNTHETIC SCENARIOS — Not based on a real organisation's confidential/internal information.** All people, records, quantities and constraints below are invented test inputs, not observations, interviews, empirical evidence or forecasts. No application data or code is generated.
 

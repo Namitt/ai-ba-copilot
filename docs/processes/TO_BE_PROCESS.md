@@ -1,9 +1,11 @@
 # TO-BE Business Process
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2
 Basis: OPPORTUNITY_LIFECYCLE.md (LC-001..006), BA_OPERATING_MODEL.md, RACI.md; baseline fb5f23f / 3cdbcce.
+
+> Owner-approved as part of the Phase 2 BA operating-model baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts this TO-BE business process as the current project model; it is a business flow, not architecture, and remains subject to the OPEN assumptions.
 
 ## Narrative
 

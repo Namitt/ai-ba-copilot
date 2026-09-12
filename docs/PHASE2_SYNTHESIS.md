@@ -1,9 +1,11 @@
 # Phase 2 Synthesis and Owner Review
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2 — BA Operating Model & Business Process
 Starting baseline: 3cdbcce2f838e3110bec759a8d1bfd25cf3a17db; Phase 1 evidence/content fb5f23f.
+
+> Owner-approved as the Phase 2 synthesis and baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts this synthesis as the current project baseline; it does not establish demand for a dedicated application, and ASM-002 and ASM-010 remain OPEN.
 
 ## Executive finding
 
@@ -55,7 +57,7 @@ These tests are manual reasoning checks against the written model. They do not m
 
 ## Assumption challenge ledger
 
-Existing docs/ASSUMPTIONS.md remains unchanged and APPROVED as the Phase 1 baseline. This DRAFT companion adds analysis without silently promoting new content or changing OPEN status.
+Existing docs/ASSUMPTIONS.md remains unchanged and APPROVED as the Phase 1 baseline. This companion analysis adds to the Phase 1 baseline without silently promoting new content or changing OPEN status.
 
 | Assumption | Supporting indication within cases / baseline | Challenge | Confidence change / status | Missing evidence and next validation action |
 |---|---|---|---|---|
@@ -73,11 +75,11 @@ ASM-001 remains as approved in Phase 1; Phase 2 neither revalidates nor overturn
 
 ## Risks and stakeholder implications
 
-No approved register was materially changed. Existing RSK-002 (discovery insufficient), RSK-005 (adoption), RSK-007 (confirmation bias), RSK-008 (overclaim), RSK-009 (overengineering) and RSK-010 (governance) remain relevant. Proportionate records, counterfactual tests, authority separation and explicit evidence limits operationalise existing mitigations. The new RACI is a DRAFT elaboration of STK-01..08, not a claimed real organisation chart. No risk likelihood is lowered merely because cases can be walked through.
+No approved register was materially changed. Existing RSK-002 (discovery insufficient), RSK-005 (adoption), RSK-007 (confirmation bias), RSK-008 (overclaim), RSK-009 (overengineering) and RSK-010 (governance) remain relevant. Proportionate records, counterfactual tests, authority separation and explicit evidence limits operationalise existing mitigations. The new RACI is an elaboration of STK-01..08, not a claimed real organisation chart. No risk likelihood is lowered merely because cases can be walked through.
 
 ## Artefact and delivery map
 
-| Jira task under AIBC-7 | Draft artefact |
+| Jira task under AIBC-7 | Artefact |
 |---|---|
 | AIBC-8 Define synthetic stakeholder scenarios | processes/SYNTHETIC_SCENARIOS.md |
 | AIBC-9 Validate hypothesised AS-IS process | processes/AS_IS_VALIDATION.md |
@@ -87,7 +89,7 @@ No approved register was materially changed. Existing RSK-002 (discovery insuffi
 | AIBC-13 Define opportunity prioritisation approach | PRIORITISATION_APPROACH.md |
 | AIBC-14 Phase 2 synthesis and owner review | PHASE2_SYNTHESIS.md |
 
-Paths are relative to docs/. Repository drafts remain local, uncommitted and unpushed until owner review. Jira REVIEW means awaiting owner review, not content status REVIEWED or APPROVED. Phase 1 AIBC-1..6 remain DONE.
+Paths are relative to docs/. These artefacts are owner-approved as the Phase 2 content baseline (commit 2f7f09d); Phase 1 AIBC-1..6 remain DONE.
 
 ## Owner decisions requested
 
@@ -99,7 +101,7 @@ Paths are relative to docs/. Repository drafts remain local, uncommitted and unp
 
 ## Verification scope
 
-Review every PP/case classification, stage decision/evidence/authority/route and BA activity control split; check one A per RACI row, traceability to existing PP/ASM/STK/RSK/EV identifiers, arithmetic, Mermaid node/route consistency and DRAFT status. Compare tracked repository files against starting HEAD to ensure Phase 1 and governance debt were not altered. Check Jira parent relationships and review states, concise Notion summaries, private checkpoints and evidence-debt honesty. Record actual verification results privately; no software test suite is appropriate because no software changed.
+Review every PP/case classification, stage decision/evidence/authority/route and BA activity control split; check one A per RACI row, traceability to existing PP/ASM/STK/RSK/EV identifiers, arithmetic, Mermaid node/route consistency and document status. Compare tracked repository files against starting HEAD to ensure Phase 1 and governance debt were not altered. Check Jira parent relationships and review states, concise Notion summaries, private checkpoints and evidence-debt honesty. Record actual verification results privately; no software test suite is appropriate because no software changed.
 
 ## Owner-review amendments (2026-09-11)
 

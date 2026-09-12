@@ -1,9 +1,11 @@
 # BA Operating Model
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2
 Basis: approved Phase 1 at fb5f23f / 3cdbcce; OPPORTUNITY_LIFECYCLE.md; processes/SYNTHETIC_SCENARIOS.md.
+
+> Owner-approved as the Phase 2 BA operating-model baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts this operating model as the current project baseline; the OPEN assumptions (including ASM-002) and the stated limitations remain.
 
 ## Boundary and operating stance
 

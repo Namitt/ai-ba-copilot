@@ -1,9 +1,11 @@
 # Roles, Responsibilities and RACI
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2
 Basis: approved STAKEHOLDER_ANALYSIS.md at fb5f23f / 3cdbcce; no new real stakeholders.
+
+> Owner-approved as part of the Phase 2 BA operating-model baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts this RACI as the current project model; it does not establish that these roles or delegations apply to any specific real organisation.
 
 ## Convention and authority limits
 

@@ -1,9 +1,11 @@
 # AS-IS Hypothesis Stress Test
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2
 Baseline: approved AS_IS_PROCESS.md at fb5f23f / closure 3cdbcce; unchanged.
+
+> Owner-approved as part of the Phase 2 BA operating-model baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts this stress test as the current project baseline; it does not make the synthetic stress test real-world validation, and the OPEN assumptions remain.
 
 ## Method
 
@@ -27,4 +29,4 @@ The Phase 1 intake-to-pilot sequence cannot be universal: SCN-003 already has go
 
 ## Verification and limits
 
-All seven PP identifiers classified in all four cases (28 explicit classifications). Findings are internally stress-tested only. The approved AS-IS was preserved; these results are a DRAFT companion requiring owner review. Next empirical validation: practitioner comparison of current request handling, actual records and exceptions, with consent and approved data access. No such access is assumed.
+All seven PP identifiers classified in all four cases (28 explicit classifications). Findings are internally stress-tested only. The approved AS-IS was preserved; these results are a companion stress test to it. Next empirical validation: practitioner comparison of current request handling, actual records and exceptions, with consent and approved data access. No such access is assumed.

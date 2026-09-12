@@ -1,13 +1,15 @@
 # BA Opportunity Lifecycle
 
-Status: DRAFT
+Status: APPROVED
 Owner: Namit Singh
 Phase: 2 — business operating model, not application design
 Basis: Phase 1 baseline fb5f23f / 3cdbcce; processes/AS_IS_VALIDATION.md and processes/SYNTHETIC_SCENARIOS.md.
 
+> Owner-approved as part of the Phase 2 BA operating-model baseline on 2026-09-11 (content commit 2f7f09d). Approval accepts this six-stage lifecycle as the current project model; it neither authorises Phase 3 nor approves any real opportunity.
+
 ## Proposed lifecycle and challenge
 
-Use six decision stages, with parallel stakeholder engagement and assurance. Stage identifiers LC-001..006 identify this draft's business stages; they are not Jira statuses, screens or approved product requirements. Combining discovery/stakeholders/evidence reduces serial handoffs; triage brings governance forward; feasibility/value/adoption run together so trade-offs can change options before ranking. A low-risk, well-evidenced request may use brief records for each relevant decision; bypassing paperwork does not bypass decision accountability.
+Use six decision stages, with parallel stakeholder engagement and assurance. Stage identifiers LC-001..006 identify this model's business stages; they are not Jira statuses, screens or approved product requirements. Combining discovery/stakeholders/evidence reduces serial handoffs; triage brings governance forward; feasibility/value/adoption run together so trade-offs can change options before ranking. A low-risk, well-evidenced request may use brief records for each relevant decision; bypassing paperwork does not bypass decision accountability.
 
 ## LC-001 — Receive, clarify and screen
 
@@ -67,4 +69,4 @@ Use six decision stages, with parallel stakeholder engagement and assurance. Sta
 
 PARK retains a viable question but lacks priority, readiness or evidence-access now; STOP closes the current proposition for a stated reason. Neither deletes the record. Reopen only when the recorded trigger changes. MORE EVIDENCE REQUIRED names what would change the decision and a proportionate way to obtain it. REFINE changes the proposition; it is not a request to manufacture supportive evidence. PROCEED is bounded to the authorised next action, never blanket permission to build.
 
-No real opportunity is approved by this draft. Phase 2 ends with a decision-ready operating-model proposal; Phase 3 requires separate owner authorisation.
+No real opportunity is approved by this operating-model proposal. Phase 2 ends with a decision-ready operating-model proposal; Phase 3 requires separate owner authorisation.
