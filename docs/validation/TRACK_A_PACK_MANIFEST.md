@@ -1,9 +1,10 @@
 # Track A Test-Pack Manifest (public — pre-specification record)
 
-Status: DRAFT (prepared; not committed by the generating task)
+Status: BASELINED — PUBLIC PRE-SPECIFICATION MANIFEST
 Owner: Namit Singh
 Phase: 3.5 — Pre-Build Validation · Track A
-Repository baseline: 159c71b ("Baseline Phase 3.5 validation design")
+Repository governance commit: c970c03 — Reconcile Track A pre-execution governance
+Design baseline: 159c71b ("Baseline Phase 3.5 validation design")
 Pack version / date fixed: v1.1 (final corrected; TRACK_A_TEST_PACK.md reconciliation note updated) — 2026-09-14
 
 > **Purpose.** This manifest lets the project demonstrate that the Track A study materials were **pre-specified and fixed before the dry run and before any participant contact**, without exposing their contents. The full operational materials are held **privately** and are **withheld from this public repository during active validation to prevent participant contamination**. This file therefore lists only artefact names, status, purpose and a SHA-256 hash of each final artefact — **no scenario contents, scoring keys, expected blockers, defensible routes, counterbalancing detail, or participant data.**
@@ -44,4 +45,4 @@ The GitHub repository is public. Publishing the scenarios, facilitator scoring k
 - These materials were **fixed before the dry run** and before any participant was contacted.
 - Their **contents are withheld** from this public repository during active validation to prevent participant contamination.
 - No scoring-key contents, expected blockers, scenario answers, defensible-route keys, participant data or contact information appear in this manifest.
-- This manifest is **prepared, not committed**; the owner commits it if/when appropriate.
+- This manifest is **committed to the public repository** as the pre-specification record (governance commit c970c03). The operational study materials themselves remain private and withheld during active validation.
