@@ -48,7 +48,7 @@ Fixed **before** any session so it is applied identically to everyone:
 No deception is used beyond not pre-announcing the hoped-for result.
 
 ### 5a. Scoring/reviewer note
-Where practical, a **second reviewer scores a subset** of outputs and disagreements are recorded; **no inter-rater reliability statistic is claimed unless it is actually measured** (SCORING_RUBRIC §6).
+Controlled wording amendment (2026-09-14): the **participant-facing format generally reveals Condition A vs Condition B**, so **treatment blinding is NOT assumed** and no "blind-ish" claim is made. Accurate controls apply instead: outputs de-identified (pseudonymous participant ID); rubric and scenario expectations fixed before testing; raw outputs preserved; an evidence note required for each awarded indicator; scoring completed before viewing aggregate A-vs-B patterns where practical. Where practical, a **second reviewer scores a subset** of outputs and disagreements are recorded; **no inter-rater-reliability statistic is claimed unless it is actually measured**, and **no blinding is claimed unless condition-unlabelled material was actually provided to a reviewer** (SCORING_RUBRIC §6).
 
 ## 6. Boundaries
 

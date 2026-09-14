@@ -70,10 +70,14 @@ Where multiple reasonable decisions exist, score the **reasoning** (A–E), not 
 
 ## 6. Bias controls tied to scoring
 
+Controlled wording amendment (2026-09-14): treatment blinding is **not** assumed and no "blind-ish" claim is made — the participant-facing format generally reveals Condition A (free-form notes) vs Condition B (structured worksheet), so a scorer normally cannot be blinded to condition. The accurate bias controls are:
+
 - The rubric, per-scenario expectations and protocol are **fixed before** any session.
 - Raw participant output is preserved **before** any debrief interpretation; scoring works from the raw output.
-- Outputs are anonymised (participant ID) and, where practical, scored without leaning on which condition the project hopes will win (blind-ish).
-- **Optionally** a second reviewer scores a subset; disagreements are recorded. **No inter-rater reliability statistic is claimed unless it is actually measured.**
+- Participant identity is removed from scoring artefacts (pseudonymous participant ID).
+- An **evidence note is required** for each awarded indicator (award for reasoned content, not field completion).
+- Scoring is completed **before** looking at aggregate A-vs-B patterns where practical.
+- **Optionally** a second reviewer scores a subset; disagreements are recorded. **No inter-rater-reliability statistic is claimed unless it is actually measured**, and **no blinding is claimed unless condition-unlabelled material was actually provided to the reviewer.**
 
 ## 7. Thresholds (OWNER-APPROVED BEFORE TESTING — default is qualitative)
 
